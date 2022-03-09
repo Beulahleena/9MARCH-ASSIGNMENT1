@@ -1,0 +1,18 @@
+str="STUDY hard to have a SUCCESSFULL career."
+lower=upper=digit=alpha=0
+for i in str:
+    if i.isupper():
+        upper+=1
+    elif i.islower():
+        lower+=1
+    elif i.isdigit():
+        digit+=1
+    else:
+        continue
+for l in str:
+    if l.isalpha():
+        alpha+=1
+print(upper)
+print(lower)
+print(digit)
+print(alpha)
